@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+
+  /*right plugin*/
+  public rightPluginMode: string='fixed-plugin';
+  fnPluginShow(){
+    this.rightPluginMode = "fixed-plugin ps show";
+  }
+
+  fnPluginHide(){
+    this.rightPluginMode = "fixed-plugin";
+  }
+
   title = 'ereconciliationfrontend';
 }

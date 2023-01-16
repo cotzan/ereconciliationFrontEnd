@@ -25,7 +25,14 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "assets/js/core/popper.min.js",
+  "../assets/js/core/bootstrap.min.js",
+  "../assets/js/plugins/perfect-scrollbar.min.js",
+  "../assets/js/plugins/smooth-scrollbar.min.js",
+  "../assets/js/plugins/chartjs.min.js",
+              "~assets/js/material-dashboard.min.js"
+            ]
           },
           "configurations": {
             "production": {
