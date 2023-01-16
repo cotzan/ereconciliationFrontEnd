@@ -81,6 +81,7 @@ if (document.querySelector('.fixed-plugin')) {
   var buttonNavbarFixed = document.getElementById('navbarFixed');
 
   if (fixedPluginButton) {
+    alert("material-dashboard.js line 84");
     fixedPluginButton.onclick = function() {
       if (!fixedPlugin.classList.contains('show')) {
         fixedPlugin.classList.add('show');
